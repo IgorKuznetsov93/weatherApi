@@ -1,0 +1,8 @@
+{
+  "openWeatherApi" : {
+    "url" : "https://api.openweathermap.org/data/2.5/weather",
+    "apiKey" : "e0dd0948c668f1c145863451a9187e4d"
+  }
+}
+
+
