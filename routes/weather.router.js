@@ -3,7 +3,7 @@ const asyncHandler = require('express-async-handler');
 const createError = require('http-errors');
 const { getCurrentWeatherByCity } = require('../controllers');
 
-weatherRouter.get('/', asyncHandler(async (req, res) => {
+weatherRouter.get('/currentWeather', asyncHandler(async (req, res) => {
     const { cityName } = req.query;
     if (!cityName) {
         createError(400, 'CityName must be defined');
