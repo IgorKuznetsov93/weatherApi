@@ -21,7 +21,8 @@
 					],
 					"port": "3000",
 					"path": [
-						"weather"
+						"weather",
+						"currentWeather"
 					],
 					"query": [
 						{
@@ -49,7 +50,8 @@
 					],
 					"port": "3000",
 					"path": [
-						"weather"
+						"weather",
+						"currentWeather"
 					],
 					"query": [
 						{
