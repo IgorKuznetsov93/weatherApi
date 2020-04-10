@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:3000/weather?cityName=омск",
+					"raw": "http://127.0.0.1:3000/weather/currentWeather?cityName=омск",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -39,7 +39,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:3000/weather?cityName=омск&units=imperial",
+					"raw": "http://127.0.0.1:3000/weather/currentWeather?cityName=омск&units=imperial",
 					"protocol": "http",
 					"host": [
 						"127",
